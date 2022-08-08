@@ -1,0 +1,32 @@
+# Power
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Powers</h2>
+
+<p id="demo">Power.</p>
+
+<script>
+function myFunction(var a,var b)
+{
+	var s=1;
+}
+if(b==0)
+{
+	return s;
+}
+else
+{
+	s*=a;
+	myFunction(a,b-1)
+}
+function main(var a,var b,var p)
+{
+	p=myFunction(a,b)
+}
+document.getElementById("demo").innerHTML="The answer is" + "p";
+</script>
+
+</body>
+</html>
